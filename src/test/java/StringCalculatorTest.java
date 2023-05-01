@@ -7,12 +7,12 @@ public class StringCalculatorTest {
     private StringCalculator calculator;
 
     @BeforeEach
-    public void BeforeEach(){
+    public void beforeEach() {
         calculator = new StringCalculatorImpl();
     }
 
     @Test
-    public void TestEmptyStringReturnsZero(){
-        Assertions.assertEquals(0, calculator.Add(""));
+    public void testEmptyStringReturnsZero() {
+        Assertions.assertEquals(0, calculator.add(""));
     }
 }

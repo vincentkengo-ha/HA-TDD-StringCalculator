@@ -1,8 +1,8 @@
 public class StringCalculatorImpl implements StringCalculator {
 
     @Override
-    public int Add(String input) {
+    public int add(String input) {
         //TODO implement
-        return 0;
+        return -1;
     }
 }

@@ -1,3 +1,3 @@
 public interface StringCalculator {
-    int Add(String input);
+    int add(String input);
 }
