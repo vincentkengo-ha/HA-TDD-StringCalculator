@@ -1,2 +1,3 @@
-public class StringCalculator {
+public interface StringCalculator {
+    int Add(String input);
 }
