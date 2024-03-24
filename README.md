@@ -1,7 +1,7 @@
 # StringCalculator
 
 ## Prerequisites
-- jdk 17+
+- jdk 21+
 
 ## Running Tests
 Linux/Cygwin/WSL/Mac
