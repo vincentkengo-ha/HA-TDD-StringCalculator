@@ -8,7 +8,7 @@ public class StringCalculatorTest {
 
     @BeforeEach
     public void beforeEach() {
-        calculator = new StringCalculatorImpl();
+        calculator = new StringCalculator();
     }
 
     @Test
