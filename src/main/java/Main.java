@@ -16,8 +16,13 @@ public class Main {
             }
 
             // Process the input
-            var result = calculator.add(input);
-            System.out.println(result);
+            try {
+                var result = calculator.add(input);
+                System.out.println(result);
+            } catch (Exception e) {
+                System.out.println(e.fillInStackTrace());
+            }
+
         }
 
         scanner.close();
